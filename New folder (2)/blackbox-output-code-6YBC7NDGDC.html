@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Waleed Ahmed - Portfolio</title>
+  <meta name="description" content="Waleed Ahmed - Graphic Designer & Silk Screen Color Separation Specialist Portfolio" />
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom scrollbar for dark theme */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #0f172a;
+    }
+    ::-webkit-scrollbar-thumb {
+      background-color: #2563eb;
+      border-radius: 10px;
+      border: 2px solid #0f172a;
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-b from-black via-blue-900 to-black text-white font-sans">
+
+  <!-- Navbar -->
+  <nav class="flex items-center justify-between px-6 py-4 max-w-7xl mx-auto sticky top-0 bg-black bg-opacity-80 backdrop-blur-md z-50">
+    <div class="text-2xl font-bold text-blue-400 cursor-pointer select-none">Waleed.</div>
+    <ul class="hidden md:flex space-x-8 text-gray-300 font-medium">
+      <li><a href="#home" class="hover:text-blue-400 transition-colors duration-300">Home</a></li>
+      <li><a href="#about" class="hover:text-blue-400 transition-colors duration-300">About</a></li>
+      <li><a href="#skills" class="hover:text-blue-400 transition-colors duration-300">Skills</a></li>
+      <li><a href="#portfolio" class="hover:text-blue-400 transition-colors duration-300">Portfolio</a></li>
+      <li><a href="#contact" class="hover:text-blue-400 transition-colors duration-300">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="flex flex-col md:flex-row items-center max-w-7xl mx-auto px-6 py-20 gap-12">
+    <!-- Left side -->
+    <div class="flex-1 text-center md:text-left">
+      <span class="inline-block bg-blue-700 text-blue-300 px-3 py-1 rounded-full text-sm font-semibold mb-4">
+        Silk Screen & Graphic Design Expert
+      </span>
+      <h1 class="text-4xl md:text-5xl font-extrabold mb-2">Hi, I'm Waleed Ahmed</h1>
+      <h2 class="text-xl text-gray-300 mb-6">Graphic Designer & Silk Screen Color Separation Specialist</h2>
+      <p class="text-gray-400 max-w-lg mb-8 leading-relaxed">
+        I help brands, printers, and businesses achieve high-quality screen printing results by creating precise color separations, halftone effects, and professional artwork using Photoshop and Illustrator.
+      </p>
+      <div class="flex justify-center md:justify-start gap-6">
+        <a href="#portfolio" class="bg-blue-600 hover:bg-blue-700 transition-colors duration-300 rounded-full px-6 py-3 font-semibold shadow-md flex items-center gap-2">
+          View My Work
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
+        </a>
+        <a href="#contact" class="border border-blue-600 hover:bg-blue-600 hover:text-white transition-colors duration-300 rounded-full px-6 py-3 font-semibold">
+          Contact Me
+        </a>
+      </div>
+    </div>
+
+    <!-- Right side - Profile Image -->
+    <div class="flex-1 flex justify-center md:justify-end">
+      <div class="relative rounded-full shadow-lg shadow-blue-700/50 ring-4 ring-blue-500 ring-opacity-60 overflow-hidden w-56 h-56 md:w-72 md:h-72">
+        <img src="images/waled.jpeg" alt="Waleed Ahmed" class="object-cover w-full h-full rounded-full" />
+        <div class="absolute inset-0 rounded-full ring-2 ring-blue-400 animate-pulse opacity-50"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="max-w-7xl mx-auto px-6 py-20 text-center text-gray-300">
+    <h2 class="text-3xl font-bold mb-6 text-blue-400">About Me</h2>
+    <p class="max-w-3xl mx-auto leading-relaxed">
+      Experienced graphic designer specializing in silk screen color separation and halftone effects. Passionate about delivering print-ready artwork that elevates brands and businesses.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="max-w-7xl mx-auto px-6 py-20 text-center">
+    <h2 class="text-3xl font-bold mb-12 text-blue-400">My Skills</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+      <!-- Skill Card 1 -->
+      <div class="bg-gray-900 rounded-xl p-6 shadow-lg hover:shadow-blue-600 transition-shadow duration-300 cursor-default">
+        <div class="mb-4 flex justify-center text-blue-400">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-12 h-12" viewBox="0 0 24 24"><path d="M4 4h16v16H4z"/></svg>
+        </div>
+        <h3 class="text-xl font-semibold mb-1">Adobe Photoshop</h3>
+        <p class="text-gray-400">Halftone, Color Separation</p>
+      </div>
+      <!-- Skill Card 2 -->
+      <div class="bg-gray-900 rounded-xl p-6 shadow-lg hover:shadow-orange-500 transition-shadow duration-300 cursor-default">
+        <div class="mb-4 flex justify-center text-orange-400">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-12 h-12" viewBox="0 0 24 24"><path d="M4 4h16v16H4z"/></svg>
+        </div>
+        <h3 class="text-xl font-semibold mb-1">Adobe Illustrator</h3>
+        <p class="text-gray-400">Vector Artwork, Design</p>
+      </div>
+      <!-- Skill Card 3 -->
+      <div class="bg-gray-900 rounded-xl p-6 shadow-lg hover:shadow-green-600 transition-shadow duration-300 cursor-default">
+        <div class="mb-4 flex justify-center text-green-400">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-12 h-12" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg>
+        </div>
+        <h3 class="text-xl font-semibold mb-1">Silk Screen Printing Techniques</h3>
+        <p class="text-gray-400">Printing Techniques</p>
+      </div>
+      <!-- Skill Card 4 -->
+      <div class="bg-gray-900 rounded-xl p-6 shadow-lg hover:shadow-purple-600 transition-shadow duration-300 cursor-default">
+        <div class="mb-4 flex justify-center text-purple-400">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-12 h-12" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/></svg>
+        </div>
+        <h3 class="text-xl font-semibold mb-1">Prepress & Print-Ready Files</h3>
+        <p class="text-gray-400">Files Preparation</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="max-w-7xl mx-auto px-6 py-20">
+    <h2 class="text-3xl font-bold mb-12 text-blue-400 text-center">Selected Works</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+      <!-- Portfolio Card 1 -->
+      <article class="bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-600 transition-shadow duration-300 flex flex-col">
+        <img src="images/pro1.jpeg" alt="Project 1" class="w-full h-48 object-cover" />
+        <div class="p-6 flex flex-col flex-grow">
+          <h3 class="text-xl font-semibold mb-2">Project 1</h3>
+          <p class="text-gray-400 flex-grow">Precise color separations for high-quality screen printing.</p>
+          <button onclick="alert('Details coming soon!')" class="mt-4 self-start bg-blue-600 hover:bg-blue-700 transition-colors duration-300 rounded-full px-5 py-2 font-semibold cursor-pointer">View Details</button>
+        </div>
+      </article>
+
+      <!-- Portfolio Card 2 -->
+      <article class="bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-600 transition-shadow duration-300 flex flex-col">
+        <img src="images/pro2.jpeg" alt="Project 2" class="w-full h-48 object-cover" />
+        <div class="p-6 flex flex-col flex-grow">
+          <h3 class="text-xl font-semibold mb-2">Project 2</h3>
+          <p class="text-gray-400 flex-grow">Creative halftone effects for unique prints.</p>
+          <button onclick="alert('Details coming soon!')" class="mt-4 self-start bg-blue-600 hover:bg-blue-700 transition-colors duration-300 rounded-full px-5 py-2 font-semibold cursor-pointer">View Details</button>
+        </div>
+      </article>
+
+      <!-- Portfolio Card 3 -->
+      <article class="bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-600 transition-shadow duration-300 flex flex-col">
+        <img src="images/pro3.jpeg" alt="Project 3" class="w-full h-48 object-cover" />
+        <div class="p-6 flex flex-col flex-grow">
+          <h3 class="text-xl font-semibold mb-2">Project 3</h3>
+          <p class="text-gray-400 flex-grow">Clean vector designs for fashion and branding.</p>
+          <button onclick="alert('Details coming soon!')" class="mt-4 self-start bg-blue-600 hover:bg-blue-700 transition-colors duration-300 rounded-full px-5 py-2 font-semibold cursor-pointer">View Details</button>
+        </div>
+      </article>
+
+      <!-- Portfolio Card 4 -->
+      <article class="bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-600 transition-shadow duration-300 flex flex-col">
+        <img src="images/pro4.jpeg" alt="Project 4" class="w-full h-48 object-cover" />
+        <div class="p-6 flex flex-col flex-grow">
+          <h3 class="text-xl font-semibold mb-2">Project 4</h3>
+          <p class="text-gray-400 flex-grow">Advanced silk screen techniques and designs.</p>
+          <button onclick="alert('Details coming soon!')" class="mt-4 self-start bg-blue-600 hover:bg-blue-700 transition-colors duration-300 rounded-full px-5 py-2 font-semibold cursor-pointer">View Details</button>
+        </div>
+      </article>
+
+      <!-- Portfolio Card 5 -->
+      <article class="bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-600 transition-shadow duration-300 flex flex-col">
+        <img src="images/pro5.jpeg" alt="Project 5" class="w-full h-48 object-cover" />
+        <div class="p-6 flex flex-col flex-grow">
+          <h3 class="text-xl font-semibold mb-2">Project 5</h3>
+          <p class="text-gray-400 flex-grow">Print-ready artwork with professional quality.</p>
+          <button onclick="alert('Details coming soon!')" class="mt-4 self-start bg-blue-600 hover:bg-blue-700 transition-colors duration-300 rounded-full px-5 py-2 font-semibold cursor-pointer">View Details</button>
+        </div>
+      </article>
+
+      <!-- Portfolio Card 6 -->
+      <article class="bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:shadow-blue-600 transition-shadow duration-300 flex flex-col">
+        <img src="images/pro6.jpeg" alt="Project 6" class="w-full h-48 object-cover" />
+        <div class="p-6 flex flex-col flex-grow">
+          <h3 class="text-xl font-semibold mb-2">Project 6</h3>
+          <p class="text-gray-400 flex-grow">Unique designs crafted for brand identity.</p>
+          <button onclick="alert('Details coming soon!')" class="mt-4 self-start bg-blue-600 hover:bg-blue-700 transition-colors duration-300 rounded-full px-5 py-2 font-semibold cursor-pointer">View Details</button>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="max-w-7xl mx-auto px-6 py-20 text-center">
+    <h2 class="text-3xl font-bold mb-6 text-blue-400">Let's Work Together</h2>
+    <p class="text-gray-400 max-w-xl mx-auto mb-8">
+      Looking for professional color separation, halftone designs, or graphic design services? Reach out directly on WhatsApp.
+    </p>
+    <div class="flex flex-col sm:flex-row justify-center gap-6">
+      <a href="https://wa.me/201068480710" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-3 bg-green-600 hover:bg-green-700 transition-colors duration-300 rounded-full px-8 py-3 font-semibold text-white shadow-md" aria-label="Chat on WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6" viewBox="0 0 24 24"><path d="M20.52 3.48A11.94 11.94 0 0 0 3.48 20.52l-1.5 5.48 5.48-1.5a11.94 11.94 0 0 0 17.04-17.04zm-8.52 15a7.5 7.5 0 0 1-4.02-1.2l-.3-.18-2.82.77.75-2.75-.2-.3a7.5 7.5 0 1 1 6.6 3.66zM12 7.5a1.5 1.5 0 0 0-1.5 1.5c0 .3.12.6.3.8l.2.2a.75.75 0 0 0 1.1 0l.2-.2a1.5 1.5 0 0 0-.3-2.3z"/></svg>
+        WhatsApp Chat
+      </a>
+      <a href="https://wa.me/201068480710" class="text-green-400 underline text-lg self-center" aria-label="Call WhatsApp number">01068480710</a>
+      <a href="mailto:yourmail@example.com" class="inline-flex items-center gap-2 border border-blue-600 hover:bg-blue-600 hover:text-white transition-colors duration-300 rounded-full px-6 py-3 font-semibold" aria-label="Send Email">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-5 h-5" viewBox="0 0 24 24"><path d="M2 4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4zm2 0v.01L12 13 20 4.01V4H4zm0 2.5v13.5h16V6.5l-8 7-8-7z"/></svg>
+        Email Me
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black bg-opacity-90 py-6 mt-20 text-center text-gray-500 text-sm">
+    <p>© 2025 Waleed Ahmed. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
